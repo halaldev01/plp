@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Assignment</title>
+</head>
+<body>
+
+    <!-- Ordered list with Roman numerals -->
+    <h1>Top 5 Goals</h1>
+    <ol type="I">
+        <li>Learn HTML</li>
+        <li>Master CSS</li>
+        <li>Understand JavaScript</li>
+        <li>Explore Python</li>
+        <li>Become a Developer</li>
+    </ol>
+
+    <!-- External Image -->
+    <h2>Beautiful View</h2>
+    <img src="https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg" alt="Nature Image" width="600">
+
+    <!-- Table of 5 contacts -->
+    <h2>Contact List</h2>
+    <table border="1" cellpadding="10" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>123 Main St</td>
+                <td>+1234567890</td>
+                <td>john@example.com</td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>456 Maple Ave</td>
+                <td>+0987654321</td>
+                <td>jane@example.com</td>
+            </tr>
+            <tr>
+                <td>Mike Brown</td>
+                <td>789 Oak Blvd</td>
+                <td>+1122334455</td>
+                <td>mike@example.com</td>
+            </tr>
+            <tr>
+                <td>Lisa Ray</td>
+                <td>321 Pine Ln</td>
+                <td>+6677889900</td>
+                <td>lisa@example.com</td>
+            </tr>
+            <tr>
+                <td>Tom Green</td>
+                <td>654 Cedar Rd</td>
+                <td>+4433221100</td>
+                <td>tom@example.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Registration Form -->
+    <h2>Registration Form</h2>
+    <form action="#" method="post">
+
+        <!-- Name Field -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+        <!-- Email Field -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+        <!-- Password Field -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter a password" minlength="6" required><br><br>
+
+        <!-- Date Field -->
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <!-- Dropdown -->
+        <label for="course">Select Course:</label>
+        <select id="course" name="course" required>
+            <option value="">--Choose an option--</option>
+            <option value="web">Web Development</option>
+            <option value="data">Data Science</option>
+            <option value="design">Graphic Design</option>
+        </select><br><br>
+
+        <!-- Radio Buttons -->
+        <p>Gender:</p>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label>
+
+        <input type="radio" id="other" name="gender" value="other" required>
+        <label for="other">Other</label><br><br>
+
+        <!-- Checkboxes -->
+        <p>Skills:</p>
+        <input type="checkbox" id="html" name="skills" value="HTML">
+        <label for="html">HTML</label>
+
+        <input type="checkbox" id="css" name="skills" value="CSS">
+        <label for="css">CSS</label>
+
+        <input type="checkbox" id="python" name="skills" value="Python">
+        <label for="python">Python</label><br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Register">
+
+    </form>
+
+</body>
+</html>
