@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  #main-heading {
+    color: navy;
+  }
+  
+  #container {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px dashed gray;
+  }
+  
